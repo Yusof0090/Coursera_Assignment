@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding:0 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+header {
+    margin: 30px ;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section {
+    float: left;
+    width: 100%;
+    padding: 10% 15px 15px 15px;
+    border: 1px solid black;
+    text-align: left;
+    background-color: #e5e5e5;
+    position: relative;
+    margin: 7.5px 0;
+}
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: #fff;
+}
+.section1{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.section2{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.section3{
+    background-color: rgba(0, 128, 0, 0.3);
+}
+.title1{
+    background-color: black;
+}
+.title2{
+    background-color: red;
+}
+.title3{
+    background-color: green;
+}
+
+
+@media (min-width: 576px) {
+    .col-sm-12{
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6{
+        width: 50%;
+        padding: 15px;
+    }
+    .col-md-12{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4{
+        width: 33.33333%;
+        padding: 15px;
+    }
+}
